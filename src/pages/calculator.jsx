@@ -9,7 +9,7 @@ import useCalculator from '../components/hooks/useCalculator'
 const Calculator = () => {
   const calculator = useCalculator()
   return (
-    <div className='w-[500px] border-gray-600 border rounded-md'>
+    <div className='calculator'>
         <Display />
         <Keyboard>
             <div className="keyboard__row">

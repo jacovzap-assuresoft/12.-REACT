@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Keyboard = ({ children }) => {
-  return <div>{children}</div>
+  return <div className="keyboard">{children}</div>
 }
 
 export default Keyboard
